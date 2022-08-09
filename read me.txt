@@ -1,0 +1,38 @@
+create reactJs Project command---
+
+npx create-react-app my-app
+cd my-app
+npm start
+
+npx install bootstrap
+
+Orda phil
+
+https://ordinarycoders.com/blog/article/react-bootstrap-forms
+https://codesandbox.io/s/goofy-ganguly-rgyy5?file=/index.html:827-3803
+https://www.youtube.com/watch?v=AOqPM_c94PQ
+https://www.youtube.com/watch?v=eJyZ7k6lWfE
+
+
+ If you select a block of code and use the key sequence Ctrl+K+C, you'll comment out the section of code. 
+Ctrl+K+U will uncomment the code.
+https://getbootstrap.com/
+json data creation : 
+https://www.npmjs.com/package/json-server
+https://jsonplaceholder.typicode.com/users
+
+npm install json-server 
+after that add json-server in package.json in script tag
+"json-server": "json-server --watch db.json --port 3003",
+
+create .env file and give port=3002
+
+run multiple port in application 
+npm install concurrently
+
+Axios: we can send get post and put request
+npm install axios
+
+run multiple port in single application like react app and json-server
+////go to the package.json file and check 
+command : npm run start:dev
